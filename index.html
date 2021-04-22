@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pankaj Singh Rana,nmastepankaj,namastepankaj"/>
+    <meta name="description" content="It is the portfolio website of the Pankaj Singh Rana of the student of the IIIT UNA. He is full LAMP stack web developer." />
+    <meta name="keywords" content="Pankaj,singh,rana,nmastepankaj,pankaj singh rana,namastepankaj,namaste pankaj,portfolio,who is pankaj singh rana,pankaj singh rana kon h,my portfolio website,web design,website design,front end design, svg animation"/>
+    <meta property="og:title" content="Pankaj Singh Rana portfolio website" />
+    <meta property="og:description" content="It is the portfolio website of the Pankaj Singh Rana of the student of the IIIT UNA. He is full LAMP stack web developer." />
+    <meta property="og:image" content="https://nmastepankaj.github.io/portfolio/images/pankaj-singh-rana-png" />
+    <meta property="og:url" content="https://nmastepankaj.github.io/portfolio/"/>
+    <meta property="og:site_name" content="Pankaj Singh Rana Portfolio website" />
+    <meta name="twitter:site" content="@nmastepankaj">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:label1" content="Written by"/>
+    <meta name="twitter:data1" content="Pankaj Singh Rana,nmastepankaj,namastepankaj">
+    <title>Pankaj Singh Rana</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="psr_mobile d-flex flex-column align-items-center">
+                <div class="psr_profile_image rounded-circle"></div>
+                    <div class="d-flex justify-content-center">
+                        <a href="https://www.facebook.com/profile.php?id=100008442691451"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a>
+                        <a href="https://mobile.twitter.com/nmastepankaj">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                          </svg></a>
+                        <a href="https://www.linkedin.com/in/nmastepankaj">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 448 512"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+                        </a>
+                        <a href="https://instagram.com/nmastepankaj"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg></a>
+                    </div>
+                </div>
+                <a href="#" class="current">Home</a>
+                <a href="#technicalSkills">skills</a>
+                <a href="#hobbiesSection">Hobbies</a>
+                <a href="#projectsSection">Projects</a>
+                <a href="#contactUs">ContactUs</a>
+                <a href="#giveFeedback">Feedback</a>
+            </div>
+              <span class="openbtn" onclick="openNav()">&#9776;</span>
+        </nav>
+        <div id="navbackdrop" onclick="closeNav()"></div>
+    </header>
+
+    <section class="psr_bg_full main_header_bg">
+        <div class="spacer"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <div class="d-flex flex-column ms-2 ms-md-4 psr_lh_2">
+                    <p class="psr_display_1 psr_text_400">Pankaj Singh Rana</p>
+                    <p class="psr_display_2">I'm <b class="psr_text_400 typewrite" data-period="2000" data-type='[" Web Developer.","LAMP stack Developer." ]'><span class="wrap"></span></b></p>
+                    <a href="#contactUs" class="psr_btn psr_btn_trans psr_btn_md psr_btn_rounded text-center">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-center">
+                    <img src="images/pankaj-singh-rana.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Educational Qualification -->
+    <section class="psr_bg_md_full edu_qua_sec">
+        <div class="spacer"></div>
+        <div class="container-fluid">
+            <div class="row justify-content-center psr_text_400 psr_display_2">
+                Educational Qualification
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="d-flex-column p-3 psr_w_md_60">
+                    <p class="psr_text_400 psr_display_3">Intermediate</p>
+                    <p>12th passout from the DHRT Saraswati Vidya Mandir afflilate by CBSE board with securing 89%.</p>
+                    </div>
+                    <div class="d-flex-column p-3 mt-4 psr_w_md_60">
+                        <p class="psr_text_400 psr_display_3">High School</p>
+                        <p>10th passout from the DHRT Saraswati Vidya Mandir afflilate by CBSE board with securing 9.6 CGPA.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex-column p-3">
+                    <div class="mb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 0 25.51 12.35"><title>college-cap</title><g class="psr_social_icons" id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M19.13,5.55a.92.92,0,0,1,.1.52l0,4.16a3.39,3.39,0,0,0-1.93-1,21.55,21.55,0,0,0-9.88,0c-.57.13-1.23.37-1.41.95a35.82,35.82,0,0,1-.07-4,1.11,1.11,0,0,1,.18-.66,1.07,1.07,0,0,1,.49-.24,21.56,21.56,0,0,1,12.1,0,.94.94,0,0,1,.45.24"/><path class="cls-1" d="M19.78,5.73c0-.58-.64-.9-1.2-1.06A23.13,23.13,0,0,0,7,4.57a3.2,3.2,0,0,0-1.71.85c-.13.15-.35.12-.54.08L0,4.52,12.26.2a2.68,2.68,0,0,1,.88-.2,2.65,2.65,0,0,1,1,.23L25.51,4.41l-1.93.45a.59.59,0,0,0-.34.15.59.59,0,0,0-.13.36,11.88,11.88,0,0,0,.72,6.21c.13.34-.2.71-.56.76a1.9,1.9,0,0,1-1-.28,32,32,0,0,0,.43-7,29.34,29.34,0,0,0-2.89.65"/></g></g></svg>
+                    </div>
+                    <p class="psr_display_2 psr_text_400">
+                        CURRENT STUDY
+                    </p>
+                    <p>Pursuing B.Tech in INFORMATION TECHNOLOGY from the college IIIT UNA. I'm in the 2000-2024 Batch.</p>
+                    <img class="college_student_img psr_center_x" src="svg/college-student.svg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Educational Qualification End -->
+    <!-- Technical Skills -->
+    <section class="psr_bg_md_full technical_skills" id="technicalSkills">
+        <div class="spacer"></div>
+        <div class="container">
+            <div class="row justify-content-center psr_text_400 psr_display_2">
+                Technical Skills
+            </div>
+            <div class="row">
+                <div class="col-md-6 p-3">
+                    <p class="psr_display_2 psr_lh_2 psr_w_md_60">I am full LAMP stack web developer.</p>
+                </div>
+                <div class="col-md-6 p-3">
+                    <div class="d-flex p-3">
+                        <p class="me-4 psr_w_30">HTML</p>
+                        <div class="progress progress_10">
+                          <div class="progress-bar progress_animate psr_bg_400" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="max-width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex p-3">
+                        <p class="me-4 psr_w_30">CSS</p>
+                        <div class="progress progress_10">
+                          <div class="progress-bar progress_animate psr_bg_400" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex p-3">
+                        <p class="me-4 psr_w_30">JS</p>
+                        <div class="progress progress_10">
+                          <div class="progress-bar progress_animate psr_bg_400" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="max-width: 40%;"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex p-3">
+                        <p class="me-4 psr_w_30">PHP</p>
+                        <div class="progress progress_10">
+                          <div class="progress-bar progress_animate psr_bg_400" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="max-width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex p-3">
+                        <p class="me-4 psr_w_30">C</p>
+                        <div class="progress progress_10">
+                          <div class="progress-bar progress_animate psr_bg_400" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="max-width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex p-3">
+                        <p class="me-4 psr_w_30">MySQL</p>
+                        <div class="progress progress_10">
+                          <div class="progress-bar progress_animate psr_bg_400" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="max-width: 40%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Technical Skills End -->
+    <!-- hobbies -->
+    <section class="psr_bg_md_full hobbies_bg" id="hobbiesSection">
+        <div class="spacer_50"></div>
+        <div class="container">
+            <div class="row justify-content-center psr_text_400 psr_display_1 mt-4">
+                HOBBIES
+            </div>
+            <div class="row">
+                <div class="col-md-6 p-4">
+                    <div class="psr_circle_progress d-flex justify-content-center">
+                        <svg class="psr_circle_progress_size" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" fill="#212529"></circle>
+                            <circle class="psr_stroke_50" cx="50" cy="50" r="45"  stroke-width="8" fill="none"></circle>
+                            <text class="text-center" text-anchor="middle" alignment-baseline="middle" x="50%" y="50%" fill="#fff">Music</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-md-6 p-4">
+                    <div class="psr_circle_progress d-flex justify-content-center">
+                        <svg class="psr_circle_progress_size" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" fill="#212529"></circle>
+                            <circle class="psr_stroke_50" cx="50" cy="50" r="45"  stroke-width="8" fill="none"></circle>
+                            <text class="text-center" text-anchor="middle" alignment-baseline="middle" x="50%" y="50%" fill="#fff">Sports</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-md-6 p-4">
+                    <div class="psr_circle_progress d-flex justify-content-center">
+                        <svg class="psr_circle_progress_size" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" fill="#212529"></circle>
+                            <circle class="psr_stroke_50" cx="50" cy="50" r="45"  stroke-width="8" fill="none"></circle>
+                            <text class="text-center" text-anchor="middle" alignment-baseline="middle" x="50%" y="50%" fill="#fff">Singing</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-md-6 p-4">
+                    <div class="psr_circle_progress d-flex justify-content-center">
+                        <svg class="psr_circle_progress_size" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" fill="#212529"></circle>
+                            <circle class="psr_stroke_50" cx="50" cy="50" r="45"  stroke-width="8" fill="none"></circle>
+                            <text class="text-center" text-anchor="middle" alignment-baseline="middle" x="50%" y="50%" fill="#fff">Reading</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer_50"></div>
+    </section>
+    <!-- hobbies End -->
+
+    <!-- Extra Skills -->
+    <section class="psr_bg_md_full extra_skills_bg">
+        <div class="spacer_50"></div>
+        <div class="container">
+            <div class="row justify-content-center psr_text_400 psr_display_2">
+                Extra Skills
+            </div>
+            <div class="row">
+                <div class="col-md-6 p-3">
+                    <p class="psr_display_2 psr_lh_2">Graphic Designing</p>
+                    <div class="d-flex p-3">
+                        <p class="me-4 psr_w_30">Adobe Illustrator</p>
+                        <div class="progress progress_10">
+                          <div class="progress-bar progress_animate psr_bg_400" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="max-width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex p-3">
+                        <p class="me-4 psr_w_30">Adobe Photoshop</p>
+                        <div class="progress progress_10">
+                          <div class="progress-bar progress_animate psr_bg_400" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="max-width: 20%;"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex p-3">
+                        <p class="me-4 psr_w_30">Canva</p>
+                        <div class="progress progress_10">
+                          <div class="progress-bar progress_animate psr_bg_400" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="max-width: 20%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-3">
+                    <p class="psr_display_2 psr_lh_2">Video Editing</p>
+                    <div class="d-flex p-3">
+                        <p class="me-4 psr_w_30">After Effects</p>
+                        <div class="progress progress_10">
+                          <div class="progress-bar progress_animate psr_bg_400" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="max-width: 40%;"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex p-3">
+                        <p class="me-4 psr_w_30">Adobe Chracter Animator</p>
+                        <div class="progress progress_10">
+                          <div class="progress-bar progress_animate psr_bg_400" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="max-width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex p-3">
+                        <p class="me-4 psr_w_30">Filmora</p>
+                        <div class="progress progress_10">
+                          <div class="progress-bar progress_animate psr_bg_400" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="max-width: 20%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer_50"></div>
+    </section>
+    <!-- Extra Skills End -->
+    <!-- projects -->
+
+    <section class="psr_bg_md_full psr_grey_bg_tr_900" id="projectsSection">
+        <div class="container">
+            <div class="row justify-content-center psr_text_400 psr_display_2 mt-4 mb-4">
+                Projects
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="team-data-img">
+                            <a href="http://bestwebhal.ezyro.com" data-fancybox="images">
+                            <div class="single-work">
+                                <img src="images/project-image-1.png" alt="team" class="img-responsive" data-no-retina>
+                                <div class="overlay-text center-block">
+                                    <div class="cases-image-inner">
+                                        <span class="cases-line top"></span>
+                                        <span class="cases-line top-right"></span>
+                                        <span class="cases-line bottom"></span>
+                                        <span class="cases-line bottom-left"></span>
+                                        <h6 class="text-white text-uppercase alt-font">BestWebHal</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                            <div class="portfolio-content">
+                                <h5 class="psr_text_400 main-font mb-2 text-uppercase">Blog Website</h5>
+                                <p class="text-capitalize">Simple Blog with admin panel, dashboard, WYSWYG editor , etc... </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="team-data-img">
+                            <a href="http://convert.ezyro.com/" data-fancybox="images">
+                            <div class="single-work">
+                                <img src="images/project-image-2.png" alt="team" class="img-responsive" data-no-retina>
+                                <div class="overlay-text center-block">
+                                    <div class="cases-image-inner">
+                                        <span class="cases-line top"></span>
+                                        <span class="cases-line top-right"></span>
+                                        <span class="cases-line bottom"></span>
+                                        <span class="cases-line bottom-left"></span>
+                                        <h6 class="text-uppercase alt-font">Excel To MySQL</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                            <div class="portfolio-content">
+                                <h5 class="psr_text_400 main-font mb-2 text-uppercase">Excel To MySQL Converter</h5>
+                                <p class="text-capitalize">Convert the CSV to SQL with this simple tool.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="team-data-img">
+                            <a href="https://bodhcon.blogspot.com/" data-fancybox="images">
+                            <div class="single-work">
+                                <img src="images/product-image-4.png" alt="team" class="img-responsive" data-no-retina>
+                                <div class="overlay-text center-block">
+                                    <div class="cases-image-inner">
+                                        <span class="cases-line top"></span>
+                                        <span class="cases-line top-right"></span>
+                                        <span class="cases-line bottom"></span>
+                                        <span class="cases-line bottom-left"></span>
+                                        <h6 class="text-white text-uppercase alt-font">Converter</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                            <div class="portfolio-content">
+                                <h5 class="psr_text_400 main-font mb-2 text-uppercase">Converter</h5>
+                                <p class="text-capitalize">Binary to Octal to Decimal to Hexadecimal Converter. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-center">
+                more details about project and more projects will be added soon.
+            </div>
+        </div>
+        <div class="spacer_50"></div>
+    </section>
+
+    <!-- projects End -->
+
+    <!-- languages -->
+
+    <section class="psr_bg_md_full lang_sec_bg">
+        <div class="spacer_50"></div>
+        <div class="container">
+            <div class="row justify-content-center psr_text_400 psr_display_2">
+                Languages
+            </div>
+            <div class="spacer_50"></div>
+            <div class="row">
+                <div class="col-sm-4 mb-2">
+                    <div class="psr_circle_progress d-flex justify-content-center">
+                        <svg class="psr_circle_progress_size" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" fill="#212529"></circle>
+                            <circle class="psr_stroke_50" cx="50" cy="50" r="45"  stroke-width="8" fill="none"></circle>
+                            <text class="text-center" text-anchor="middle" alignment-baseline="middle" x="50%" y="50%" fill="#fff">Hindi</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-2">
+                    <div class="psr_circle_progress d-flex justify-content-center">
+                        <svg class="psr_circle_progress_size" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" fill="#212529"></circle>
+                            <circle class="psr_stroke_50" cx="50" cy="50" r="45"  stroke-width="8" fill="none"></circle>
+                            <text class="text-center" text-anchor="middle" alignment-baseline="middle" x="50%" y="50%" fill="#fff">English</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-2">
+                    <div class="psr_circle_progress d-flex justify-content-center">
+                        <svg class="psr_circle_progress_size" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" fill="#212529"></circle>
+                            <circle class="psr_stroke_50" cx="50" cy="50" r="45"  stroke-width="8" fill="none"></circle>
+                            <text class="text-center" text-anchor="middle" alignment-baseline="middle" x="50%" y="50%" fill="#fff">Sanskrit</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer_50"></div>
+    </section>
+
+    <!-- languages End -->
+
+        <!-- Social Media Account -->
+
+        <section class="psr_bg_md_full psr_grey_bg_tr_900">
+            <div class="spacer_50"></div>
+            <div class="container">
+                <div class="row justify-content-center psr_text_400 psr_display_2">
+                    Social Media Accounts
+                </div>
+                <div class="row justify-content-center social_media_img psr_center_x">
+                    <?xml version="1.0" encoding="utf-8"?>
+        <svg version="1.1" id="ae72d77f-f397-4021-826a-c0dbbd2dad22"
+             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 808.5 567"
+             style="enable-background:new 0 0 808.5 567;" xml:space="preserve">
+        <style type="text/css">
+            .st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+            .psr_st1{fill:#FFB8B8;}
+            .psr_st2{fill:#2F2E41;}
+            .psr_st3{fill:var(--psr-main-400);}
+            .psr_st4{fill:#3F3D56;}
+            .psr_st5{fill:#F2F2F2;}
+            .psr_st6{fill:#FFFFFF;}
+        </style>
+        <a href="https://www.facebook.com/profile.php?id=100008442691451">
+            <g class="social_svg_icon">
+                <circle class="svg_circle_bg" cx="111.6" cy="244.5" r="34.8"/>
+                <g>
+                    <path d="M122.6,248.3l1.4-9.3h-8.9v-6c0-2.5,1.2-5,5.2-5h4.1v-7.9c0,0-3.7-0.6-7.2-0.6c-7.4,0-12.2,4.5-12.2,12.5v7.1h-8.2v9.3
+                        h8.2v22.5h10.1v-22.5H122.6z"/>
+                </g>
+            </g>
+        </a>
+        <a href="https://mobile.twitter.com/nmastepankaj">
+            <g class="social_svg_icon">
+                <circle class="svg_circle_bg" cx="257.2" cy="130" r="34.8"/>
+                <path d="M277.7,120.2l4.3-0.9c0,0-3.6,4-4.3,4.3l0,0c-0.1,0.9-0.1,1.7,0,2.6c-8.2,35.1-38.4,19.6-38.4,19.6
+                    c11,0.3,11.9-4.3,11.9-4.3c-6.4-0.9-7.7-5.1-7.7-5.1c1.2,0.6,2.7,0.3,3.4-0.9c-6.9-1.8-6-8.5-6-8.5c1.2,0.9,2.7,1.4,4.2,1.6
+                    c-0.8-0.9-7.2-8.7-3.3-12.7c0,0,4.8,8.5,17.3,9.3l0.9-0.2c-0.1-0.6-0.2-1.2-0.2-1.9c0-4.9,4-9,9-9l0,0c6,0,7.2,3.4,7.2,3.4
+                    l4.3-2.6C280.2,115.1,279.8,119.4,277.7,120.2z"/>
+            </g>
+        </a>
+        <a href="https://instagram.com/nmastepankaj">
+            <g class="social_svg_icon">
+                <circle class="svg_circle_bg" cx="412.4" cy="75.5" r="34.8"/>
+                <path d="M422.1,57.8c5,0,9,4,9,9v18c0,5-4,9-9,9h-18c-5,0-9-4-9-9v-18c0-5,4-9,9-9H422.1 M422.1,54.2h-18c-7,0-12.6,5.7-12.6,12.6
+                    v18c0,7,5.7,12.6,12.6,12.6h18c7,0,12.6-5.7,12.6-12.6v-18C434.7,59.8,429.1,54.2,422.1,54.2z"/>
+                <path d="M424.8,66.8c-1.5,0-2.7-1.2-2.7-2.7c0-1.5,1.2-2.7,2.7-2.7c1.5,0,2.7,1.2,2.7,2.7C427.5,65.6,426.3,66.8,424.8,66.8
+                    C424.8,66.8,424.8,66.8,424.8,66.8z"/>
+                <path d="M413.1,68.6c4,0,7.2,3.2,7.2,7.2s-3.2,7.2-7.2,7.2c-4,0-7.2-3.2-7.2-7.2C405.9,71.8,409.1,68.6,413.1,68.6L413.1,68.6
+                     M413.1,65c-6,0-10.8,4.8-10.8,10.8c0,6,4.8,10.8,10.8,10.8c6,0,10.8-4.8,10.8-10.8c0,0,0,0,0,0C423.9,69.8,419.1,65,413.1,65
+                    L413.1,65z"/>
+            </g>
+        </a>
+        <a href="https://www.linkedin.com/in/nmastepankaj">
+            <g class="social_svg_icon">
+                <circle class="svg_circle_bg" cx="577.8" cy="132.2" r="34.8"/>
+                <g>
+                    <path d="M565.4,144.6l-7.1-2.3l7.4-22.9l7.1,2.3L565.4,144.6z M570.3,117.4c-2.3-0.7-3.5-3.2-2.8-5.5c0.7-2.3,3.2-3.5,5.5-2.8
+                        c2.3,0.7,3.5,3.2,2.8,5.5C575,116.8,572.6,118.1,570.3,117.4z M592.1,153.2l-7.1-2.3l3.6-11.2c0.9-2.7,1.9-6.1-1.7-7.3
+                        c-3.7-1.2-5.2,1.5-6.2,4.5l-3.7,11.4l-7.1-2.3l7.4-22.9l6.8,2.2l-1,3.1l0.1,0c1.5-1.5,4.5-2.6,7.9-1.5c7.2,2.3,7,7.5,5,13.7
+                        L592.1,153.2L592.1,153.2z"/>
+                </g>
+            </g>
+        </a>
+        <a href="https://github.com/nmastepankaj">
+            <g class="social_svg_icon">
+                <circle class="svg_circle_bg" cx="729.5" cy="218.2" r="34.8"/>
+                <g>
+                    <path d="M712.2,226.4c0.5-0.4,1.9-1.7,3.6-3.1c-5.1-4.1-4.1-7.1-3.4-8.4c0.4-0.7,1.3-3.1,1-4.3c-0.2-1-0.2-2.7,1.3-1.1
+                        c1.3,1.5,0.9,3.8,0.6,4.7c-1.4,4.3,1.8,6.3,3.3,7c1.4-0.9,2.7-1.1,3.6-1c-3.2-4.7-5.5-10.6,1.9-17c2.1-1.8,4.5-2.6,6.9-2.5
+                        c0.3-0.6,1.7-3,5.3-4.2c0,0,1.9,1.2,2.6,7c1.8,1.2,3.4,2.6,4.8,4.2c1.4,1.6,2.6,3.5,3.5,5.4c5.7,1.5,6.6,3.6,6.6,3.6
+                        c-1.7,3.4-4.3,4.4-4.9,4.6c-0.3,2.4-1.3,4.6-3.5,6.5c-7.4,6.4-12.9,3.3-17.1-0.5c0,1.2-0.6,2.8-2.4,4.4c-2.6,2.2-4.7,4-5.3,4.6"
+                        />
+                </g>
+            </g>
+        </a>
+        <polygon class="psr_st1" points="549.9,499.7 559.3,504.3 581.5,470.3 567.6,463.5 "/>
+        <path class="psr_st2" d="M549,495.5l18.5,9.1l0,0c6.5,3.2,9.2,11,6,17.6c0,0,0,0,0,0l-0.2,0.4L543,507.7L549,495.5z"/>
+        <polygon class="psr_st1" points="642.9,515.8 653.4,515.8 658.3,475.5 642.9,475.5 "/>
+        <path class="psr_st2" d="M640.2,509l20.6,0h0c7.2,0,13.1,5.9,13.1,13.1c0,0,0,0,0,0v0.4l-33.7,0L640.2,509z"/>
+        <circle class="psr_st1" cx="620.5" cy="216.6" r="20.9"/>
+        <path class="psr_st2" d="M641.3,502.5c-2.1,0-3.7-1.6-3.8-3.7l-8.1-107.7c0-0.7-0.6-1.3-1.3-1.2c-0.5,0-0.9,0.3-1.1,0.7l-51.8,98.8
+            c-1,1.8-3.2,2.6-5.1,1.7l-14.4-7.2c-1.9-0.9-2.7-3.2-1.7-5.1l30.9-62.6l20.5-46.9c7.9-15.6,16.3-23.6,25.6-24.5
+            c9.6-1,19.8,5.6,31.3,20.2l0.1,0.1l0,0.2l-1.7,131.6c0,2-1.5,3.6-3.5,3.8l-15.5,1.9C641.6,502.5,641.4,502.5,641.3,502.5z"/>
+        <path class="psr_st1" d="M598.4,376.8c4.3-2.7,5.6-8.3,3-12.6c-0.3-0.5-0.6-0.9-1-1.3l3.2-83.4l-15.3,1.9l-1.3,81.2
+            c-3.6,3.6-3.5,9.5,0.1,13C590.1,378.5,594.8,379,598.4,376.8L598.4,376.8z"/>
+        <path class="psr_st3" d="M608.1,294.2l-20.6-2.3c-2.3-0.3-3.9-2.3-3.6-4.5c0-0.2,0.1-0.4,0.1-0.6l5.3-20c0.7-6.3,6.4-10.7,12.7-10
+            c6.2,0.7,10.7,6.4,10,12.6l0.7,20.6c0.1,2.3-1.7,4.2-4,4.2C608.5,294.2,608.3,294.2,608.1,294.2L608.1,294.2z"/>
+        <path class="psr_st1" d="M696.8,241.7c-0.1,0.5-0.2,0.9-0.2,1.4L660,264.2l-8.9-5.1l-9.5,12.4l14.9,10.6c2.5,1.8,5.8,1.7,8.2-0.2
+            l37.8-29.8c4.6,1.7,9.8-0.7,11.5-5.3s-0.7-9.8-5.3-11.5c-4.6-1.7-9.8,0.7-11.5,5.3C697,240.9,696.9,241.3,696.8,241.7L696.8,241.7z"
+            />
+        <path class="psr_st3" d="M658.8,265.2L647,280.5c-1.3,1.7-3.7,2-5.4,0.7c-0.1-0.1-0.3-0.2-0.4-0.4l-13.4-13.9c-4.6-3.6-5.5-10.3-1.8-15
+            c3.6-4.6,10.3-5.5,14.9-1.9l16.8,9.4c1.8,1,2.5,3.4,1.5,5.2C659,264.9,658.9,265,658.8,265.2L658.8,265.2z"/>
+        <path class="psr_st3" d="M668.4,371.4l-22.7-110.7c-2.2-10.9-12.7-18.1-23.7-16.3l-7.6,1.3c-5.3,0.9-10.1,3.8-13.2,8.2l0,0
+            c-5,7-6.6,15.9-4.2,24.1l12.5,44.9l-9.3,48.1c-0.4,1.8,0.8,3.6,2.7,4c0.4,0.1,0.8,0.1,1.1,0c4.7-0.7,12.3-1.6,21.2-2.1l4.8-18.4
+            l1.9,18.1c10.8-0.3,22.6,0.2,32.3,2.7c1.8,0.5,3.7-0.6,4.2-2.4C668.5,372.4,668.6,371.9,668.4,371.4z"/>
+        <path class="psr_st2" d="M628.5,211.9c5.4,3.7,12.4,7.5,17.9,3.5c3.6-2.6,4.7-7.3,3.3-11.5c-2.6-7.5-9.9-10.8-16.8-13.4
+            c-9-3.3-18.8-5.9-28.1-3.6c-9.3,2.4-17.5,11.4-15.8,20.8c1.3,7.6,8.5,13.9,7.5,21.5c-1,7.7-9.7,11.7-17.3,13.1
+            c-7.6,1.4-16.2,1.8-21.6,7.3c-7,7-5.2,19.5,1.3,26.9c6.6,7.4,16.5,10.7,26.1,13c12.7,3,26.5,4.6,38.6-0.4s21.5-18.5,18-31.1
+            c-1.5-5.3-5-9.8-8.3-14.2s-6.8-9-8.1-14.4c-1.1-4.5-0.3-9.7,2.7-13.1C629.2,215.2,629.4,213.5,628.5,211.9L628.5,211.9z"/>
+        <path class="psr_st4" d="M764.9,522.2c0,0.5-0.4,0.9-0.9,0.9H76.9c-0.5,0-0.9-0.4-0.9-0.9c0-0.5,0.4-0.9,0.9-0.9h687.2
+            C764.5,521.4,764.9,521.7,764.9,522.2z"/>
+        <path class="psr_st5" d="M476,512.3c-5.1,3.7-10.7,6.7-16.5,9c-1.5,0.6-3.1,1.2-4.6,1.7h-80.1c-0.3-0.6-0.6-1.1-1-1.7
+            c-6.5-11.6-12.4-23.7-14.1-36.8c-2-15.8,3.6-33.6,17.5-41.4c1.8-1,3.7-1.8,5.7-2.4c0.8-0.3,1.7-0.5,2.5-0.6
+            c16.2-3.6,32.2,6.6,35.8,22.8c1.2,5.4,0.9,11-0.9,16.2c11.8-12.1,9.6-31.6,5.5-48c-4.1-16.4-9-34.6-0.7-49.3
+            c4.6-8.2,12.7-13.2,21.8-15.3c0.3-0.1,0.6-0.1,0.8-0.2c10.8-2.2,22.1-0.2,31.5,5.5c17.4,10.9,26.3,31.7,29.2,52
+            C513.1,456.6,502.8,493,476,512.3z"/>
+        <polygon class="psr_st1" points="215.2,511.8 205,509.4 209.4,469 224.4,472.5 "/>
+        <path class="psr_st2" d="M215.4,522.2l-32.8-7.7l0.1-0.4c1.7-7.1,8.7-11.4,15.8-9.8c0,0,0,0,0,0l0,0l20,4.7L215.4,522.2z"/>
+        <polygon class="psr_st1" points="254.8,512.1 244.4,512.1 239.4,471.8 254.8,471.8 "/>
+        <path class="psr_st2" d="M257.5,522.2l-33.7,0v-0.4c0-7.2,5.9-13.1,13.1-13.1c0,0,0,0,0,0h0l20.6,0L257.5,522.2z"/>
+        <path class="psr_st1" d="M311.3,352.7c2.6-4.3,1.3-10-3-12.6c-0.5-0.3-0.9-0.5-1.4-0.7l-30.6-77.6l-17,10.3l35.4,73
+            c-1.5,4.8,1.1,10,6,11.6C304.6,358,309.1,356.3,311.3,352.7L311.3,352.7z"/>
+        <path class="psr_st3" d="M282.7,274.6l-19.5,7.2c-2.1,0.8-4.5-0.3-5.3-2.4c-0.1-0.2-0.1-0.4-0.2-0.6l-4.3-20.2
+            c-2.2-5.9,0.9-12.5,6.8-14.6c5.9-2.1,12.4,0.9,14.6,6.8l9.9,18.1c1.1,2,0.4,4.5-1.6,5.6C283.1,274.4,282.9,274.5,282.7,274.6
+            L282.7,274.6z"/>
+        <path class="psr_st2" d="M254.1,497.6c-0.1,0-0.1,0-0.2,0l-14.8-0.6c-2.1-0.1-3.7-1.8-3.7-3.9l1.1-81.8c0-0.7-0.6-1.3-1.3-1.3
+            c-0.7,0-1.2,0.5-1.3,1.1l-8.6,81.9c-0.2,1.7-1.5,3.1-3.2,3.4l-0.1,0l-13.9-1.1c-2.1,0.3-4.1-1.1-4.4-3.2c0-0.2,0-0.4,0-0.6
+            l0.8-138.8l68.2,4.3l-15,137.1C257.7,496.1,256.1,497.6,254.1,497.6z"/>
+        <circle class="psr_st1" cx="241.6" cy="210.7" r="20.9"/>
+        <path class="psr_st3" d="M269.6,363.2c-0.1,0-0.2,0-0.3,0l-63.1-4.6c-2-0.1-3.6-1.9-3.6-3.9l1.7-79.2c-0.5-19.7,15.2-36.1,34.9-36.5
+            c19.7-0.5,36.1,15.2,36.5,34.9c0,1.3,0,2.7-0.1,4c-1.1,12.2-2,65.5-2.2,81.6C273.4,361.5,271.7,363.2,269.6,363.2z"/>
+        <path class="psr_st1" d="M157.2,234.2c0.1,0.5,0.2,0.9,0.2,1.4l36.6,21.1l8.9-5.1l9.5,12.4l-14.9,10.6c-2.5,1.8-5.8,1.7-8.2-0.2
+            l-37.8-29.8c-4.6,1.7-9.8-0.7-11.5-5.3c-1.7-4.6,0.7-9.8,5.3-11.5c4.6-1.7,9.8,0.7,11.5,5.3C157,233.5,157.1,233.9,157.2,234.2
+            L157.2,234.2z"/>
+        <path class="psr_st3" d="M194.5,254.6c0.2-1.1,0.9-2,1.9-2.6l16.8-9.4c4.7-3.6,11.4-2.7,14.9,1.9c3.6,4.6,2.7,11.3-1.9,14.9l-13.4,13.9
+            c-1.5,1.5-3.9,1.6-5.4,0.1c-0.1-0.1-0.3-0.3-0.4-0.4l-11.8-15.3C194.5,256.9,194.3,255.7,194.5,254.6z"/>
+        <path class="psr_st2" d="M252.5,227.3c-6.6,0-12.6-3.5-16.1-9c-0.2-0.3-1.2-1.8-2.4-3.5c-3.3-4.8-4-6-4.1-6.1c-0.9-2.3-3.7-3.2-5.9-3.5
+            c-0.4-0.1-0.8-0.1-1.2-0.2c-3.1-0.4-6.3-0.8-8.1-4.3c-1.3-2.5-3.4-12.7-1.8-15.2c2-3.1,5.9-2.1,9.7-1.1c2.4,0.6,4.9,1.3,6.9,0.9
+            c8.6-1.8,18.4-3.8,27.1,1.4c6.9,4.2,11,12.1,10.8,20.6c-0.2,9.2-4.2,16.4-10.7,19.4l-1.3,0.4l-0.8,0.1
+            C253.9,227.2,253.2,227.3,252.5,227.3z"/>
+        <path class="psr_st6" d="M391.8,450.5c6.4,13,8.5,27.8,5.8,42c-2,10.5-6.3,20.3-12.8,28.8c-0.4,0.6-0.9,1.2-1.3,1.7h-3.2
+            c0.5-0.6,1-1.1,1.4-1.7c11.8-14.7,16.7-33.7,13.6-52.2c-1.8-10.3-6.1-20.1-12.4-28.4c0.8-0.3,1.7-0.5,2.5-0.6
+            C387.9,443.4,390,446.9,391.8,450.5z"/>
+        <path class="psr_st6" d="M468.4,459.9c-0.7,7.2-2.4,14.3-5.1,21c-2.5,5.9-5.9,11.5-10,16.4c-8.5,10.2-19.7,17.9-31.8,23
+            c-0.9,0.4-1.8,0.7-2.7,1.1c-1.6,0.6-3.2,1.2-4.7,1.7h-8.6c2-0.5,4.1-1.1,6.1-1.7c4.8-1.5,9.4-3.3,13.9-5.5
+            c11.4-5.4,21.3-13.5,28.9-23.7c8.1-11.2,11.7-24.6,12.3-38.2c0.6-14.6-1.3-29.5-4.6-43.7c-3.4-14.6-8.6-28.7-15.4-42
+            c-0.3-0.6-0.1-1.4,0.5-1.7c0.2-0.2,0.5-0.2,0.8-0.2c0.3,0.1,0.5,0.3,0.6,0.5c0.8,1.6,1.7,3.3,2.5,5c6.6,13.9,11.5,28.5,14.5,43.5
+            C468.3,430,469.9,445.2,468.4,459.9z"/>
+        </svg>
+                </div>
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <b class="psr_text_400">@nmastepankaj</b>username for almost all popular social media platform.
+                    </div>
+                </div>
+            </div>
+            <div class="spacer_50"></div>
+        </section>
+    
+        <!-- Social Media End -->
+
+     <!-- START CONTACT -->
+     <section class="section slide5 contact-bg psr_bg_md_full" id="contactUs">
+         <div class="spacer_50"></div>
+         <div class="container">
+             <div class="row pb-5">
+                 <div class="col-12 col-md-7 psr_lh_2">
+                     <span class="psr_text_400 d-block psr_display_2 text-uppercase psr_fw_600"> Contact Me </span> <span class="psr_display_2"> Lets Get In Touch </span>
+                     <p class="py-2 alt-font">I am available all the time for any project acording to my skills.</p>
+                 </div>
+                 <div class="col-12 col-md-5 text-md-right pt-4 pt-md-0 psr_lh_3">
+                     <p class="m-0 psr_text_400 main-font psr_fw_600 psr_display_2">pankajsinghrana2003</p>
+                     <p class="alt-font">My Skype ID</p>
+                 </div>
+             </div>
+             <form class="gform contact-form" id="contact-form-data" action="https://script.google.com/macros/s/AKfycbx_mclX0tjNSXc86mh5zdThlc7HFVjl2qifXhNfHY8xP4xtwDlnpwHhfulkz3PflRZZXQ/exec" method="post">
+                <div class="row pt-3">
+                    <!-- Submission Popup -->
+                    <div class="col-12">
+                        <div class="col-sm-12 px-0" id="result"></div>
+                    </div>
+                    <!--Left Column-->
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Name" required="" id="first_name" name="name">
+                        </div>
+        
+                        <div class="form-group">
+                            <input class="form-control" type="tel" placeholder="Contact No" id="phone" name="phone">
+                        </div>
+        
+                        <div class="form-group">
+                            <input class="form-control" type="email" placeholder="Email" required="" id="email" name="email">
+                        </div>
+                    </div>
+                    <!--Right Column-->
+                    <div class="col-12 col-md-6 offset-md-1 contact-form">
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Type Your Message Here" id="message" name="message"></textarea>
+                        </div>
+                    </div>
+                    <!-- Button -->
+                    <div class="col-12 px-md-0">
+                        <div class="contact-btn pt-5 text-center text-lg-left">
+                            <button type="submit" class="psr_btn psr_btn_trans psr_btn_md psr_btn_rounded text-capitalize contact_btn">Contact Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div style="display:none" class="thankyou_message">
+                    <!-- You can customize the thankyou message by editing the code below -->
+                    <p class="psr_text_400"> Thanks for contacting us! We will get back to you soon!
+                    </p>
+                   </div>
+            </form>
+         </div>
+     </section>
+     
+ <!-- END CONTACT -->
+ <!-- Start Feedback -->
+ <section class="psr_bg_md_full feedback_bg" id="giveFeedback">
+    <div class="spacer"></div>
+    <div class="container">
+        <div class="row justify-content-center psr_text_400 psr_display_1">
+            FEEDBACK
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center">
+            <form style="width:80%;" class="gform contact-form" id="contact-form-data" action="https://script.google.com/macros/s/AKfycbz0MkidToW1bYlYziE2cNn9O0G2iafW-dpl0rAg0bWhPwSaGY2lUIGjx6NWu6SP0w1eTw/exec" method="post">
+                <input type="text" name="starRating" id="getStarNo" hidden>
+                <div class="star_rating d-flex justify-content-center mt-4">
+                    <svg class="fb_star me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" onclick="setStarColor(1)">
+                        <path class="me-2" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg class="fb_star me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" onclick="setStarColor(2)">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg class="fb_star me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" onclick="setStarColor(3)">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg class="fb_star me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" onclick="setStarColor(4)">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg class="fb_star me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" onclick="setStarColor(5)">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Type Your FEEDBACK Here" id="message" name="feedback"></textarea>
+                </div>
+                <div class="contact-btn pt-5 text-center text-lg-left">
+                    <button type="submit" class="psr_btn psr_btn_trans psr_btn_md psr_btn_rounded text-capitalize contact_btn">Give Feedback</button>
+                </div>
+                <div style="display:none" class="thankyou_message">
+                    <!-- You can customize the thankyou message by editing the code below -->
+                    <p class="psr_text_400"> Thanks for Giving your valuable feedback.
+                    </p>
+                   </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    <div class="spacer"></div>
+</section>
+ <!-- End Feedback -->
+ <!-- Start Team work -->
+ <div class="psr_bg_md_full psr_grey_bg_tr_900">
+     <div class="spacer_50"></div>
+     <div class="container">
+        <div class="row justify-content-center psr_text_400 psr_display_2 mb-4">
+            Believe On Team Work
+        </div>
+         <div class="row justify-content-center">
+            <svg class="team_work_img" id="b66c9c51-8109-402d-a3f9-100a5bb3d153" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 890.30174 489.29978">
+
+                <title>work_together</title><rect x="182.97245" y="0.39886" width="703.57565" height="450.60114" fill="#e6e6e6"/><rect x="245.18701" y="60.90722" width="254" height="261" fill="#fff"/><rect x="594.18701" y="65.96874" width="254" height="317" fill="#fff"/><ellipse cx="844.80174" cy="477.2616" rx="45.5" ry="6.5" fill="#e6e6e6"/><ellipse cx="389.89961" cy="477.40722" rx="45.5" ry="6.5" fill="#e6e6e6"/><ellipse cx="104.42498" cy="470.90722" rx="104.42498" ry="5" fill="#e6e6e6"/><rect x="182.67203" width="703.57565" height="29.89047" class="psr_fill_400"/><circle cx="204.88423" cy="15.28159" r="5.53997" fill="#e6e6e6"/><circle cx="225.91256" cy="15.28159" r="5.53997" fill="#e6e6e6"/><circle cx="246.94089" cy="15.28159" r="5.53997" fill="#e6e6e6"/><path d="M947.03614,356.34879H945.4975V314.19823a24.3956,24.3956,0,0,0-24.39567-24.39563H831.80022a24.3956,24.3956,0,0,0-24.39567,24.39563V545.43948a24.3956,24.3956,0,0,0,24.39567,24.39563h89.30161a24.3956,24.3956,0,0,0,24.39567-24.39563V386.35227h1.53864Z" transform="translate(-154.84913 -205.35011)" fill="#3f3d56"/><path d="M921.08621,296.1495H909.42939a8.6555,8.6555,0,0,1-8.01381,11.92446H850.25579A8.65552,8.65552,0,0,1,842.242,296.1495H831.35448a18.21836,18.21836,0,0,0-18.21838,18.21834v230.902a18.21836,18.21836,0,0,0,18.21838,18.21836h89.73173a18.21837,18.21837,0,0,0,18.21839-18.21836v-230.902A18.21837,18.21837,0,0,0,921.08621,296.1495Z" transform="translate(-154.84913 -205.35011)" fill="#fff"/><rect x="284.09023" y="225.77561" width="176.5444" height="8.05267" fill="#e6e6e6"/><rect x="284.09023" y="251.77561" width="176.5444" height="8.05267" class="psr_fill_400"/><rect x="284.09023" y="277.77561" width="176.5444" height="8.05267" fill="#e6e6e6"/><rect x="670.83934" y="243.34556" width="103.06376" height="8.05267" fill="#e6e6e6"/><rect x="670.83934" y="268.34556" width="103.06376" height="8.05267" fill="#e6e6e6"/><rect x="670.83934" y="293.34556" width="103.06376" height="8.05267" fill="#e6e6e6"/><rect x="922.35071" y="606.56341" width="17.17729" height="17.17729" transform="translate(1391.24229 -521.13741) rotate(90)" fill="#3f3d56"/><rect x="894.67619" y="606.56341" width="17.17729" height="17.17729" transform="translate(1363.56776 -493.46289) rotate(90)" class="psr_fill_400"/><rect x="867.00166" y="606.56341" width="17.17729" height="17.17729" transform="translate(1335.89323 -465.78836) rotate(90)" fill="#3f3d56"/><rect x="839.32713" y="606.56341" width="17.17729" height="17.17729" transform="translate(1308.2187 -438.11383) rotate(90)" fill="#3f3d56"/><rect x="811.6526" y="606.56341" width="17.17729" height="17.17729" transform="translate(1280.54418 -410.4393) rotate(90)" fill="#3f3d56"/><rect x="692.7424" y="138.9903" width="57.25764" height="57.25764" class="psr_fill_400"/><path d="M504.45442,480.943l-.74114,1.48227-2.2234-11.117s-2.96454-11.85815,2.96454-11.85815,4.4468,11.85815,4.4468,11.85815v8.15248Z" transform="translate(-154.84913 -205.35011)" fill="#a0616a"/><path d="M601.69555,479.42524l.74113,1.48227,2.22341-11.117s2.96454-11.85815-2.96454-11.85815-4.44681,11.85815-4.44681,11.85815V477.943Z" transform="translate(-154.84913 -205.35011)" fill="#a0616a"/><polygon points="382.215 358.94 373.322 413.784 377.768 467.145 388.144 462.699 386.662 422.677 397.038 390.808 399.261 428.606 394.815 467.886 408.155 469.369 417.79 388.585 417.049 361.163 382.215 358.94" fill="#2f2e41"/><path d="M537.06434,665.82526l-5.18794,8.15248V692.194a2.209,2.209,0,0,0,1.85635,2.18045c2.5428.41721,6.97037.71364,8.51954-1.86831,2.2234-3.70567.74113-11.85816.74113-11.85816s2.96454-5.92907,1.48227-10.37588-2.96454-5.18794-2.96454-5.18794Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><path d="M559.29839,673.23661l1.48227,2.2234s2.2234,2.22341.74113,3.70568a28.96565,28.96565,0,0,0-2.96454,3.70567s-8.15248,2.2234-8.15248-.74114v-9.63475Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><circle cx="401.77827" cy="288.79506" r="9.82427" fill="#a0616a"/><polygon points="395.185 291.867 394.444 305.949 407.784 306.69 407.043 292.608 395.185 291.867" fill="#a0616a"/><path d="M564.48633,512.41037l-2.10384-5.13957s-9.75432-3.75405-12.71885-.04838l-1.48227,4.44681-11.85816-2.96454-6.67021,14.8227,5.92908,42.24468s15.56382,20.01064,36.3156.74113l5.92908-40.02127L573.38,510.9281Z" transform="translate(-154.84913 -205.35011)" fill="#575a89"/><polygon points="417.049 308.543 418.531 305.578 433.354 296.684 442.4 269.907 449.4 272.907 441.506 304.837 420.013 324.847 417.049 308.543" fill="#575a89"/><polygon points="382.956 304.837 381.474 303.355 365.91 293.72 354.793 271.486 345.9 274.45 355.534 301.872 379.251 321.142 382.956 304.837" fill="#575a89"/><path d="M563.91892,479.10047l1.60629-.80315-2.40943-.80314V476.691s-12.04715-4.81886-13.65343,3.21257a16.14329,16.14329,0,0,0,0,19.27544v2.40942l12.85029,1.60629,1.60628-4.81886S571.95036,483.91933,563.91892,479.10047Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><path d="M269.93891,565.15978l-2.85542,1.42771s-11.42168,5.23493-8.09036,8.09035,12.37349-2.85542,12.37349-2.85542l1.90361-2.37952Z" transform="translate(-154.84913 -205.35011)" fill="#ffb8b8"/><polygon points="198.633 359.099 189.807 418.346 176.481 459.749 169.343 456.418 176.005 399.786 156.969 383.605 158.397 359.81 198.633 359.099" fill="#2f2e41"/><path d="M323.24006,663.19583s8.09036-4.28313,8.56626,1.90361l-.95181,6.18674s2.85542,10.94578-6.66264,8.56626-2.85542-9.51806-2.85542-9.51806Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><path d="M318.00513,583.72l-6.18674,5.23493s0,32.36142,4.28312,37.12045,31.40961,29.0301,32.36142,29.9819,5.23494-9.51806,5.23494-9.51806l-25.69878-29.9819,1.90362-18.56023Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><path d="M350.84245,645.11151s7.61445-1.42771,7.61445,3.80722a115.23116,115.23116,0,0,0,.9518,12.37349s1.90362,16.65661-4.28313,14.27709-8.56625-19.03612-8.56625-19.03612a7.08933,7.08933,0,0,1,2.85542-3.33133C351.31835,652.25006,350.84245,645.11151,350.84245,645.11151Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><polygon points="172.198 288.424 173.626 306.033 169.819 312.695 159.349 302.701 158.397 289.376 172.198 288.424" fill="#ffb8b8"/><circle cx="163.6319" cy="282.71335" r="11.42168" fill="#ffb8b8"/><polygon points="168.391 305.557 173.15 291.756 181.716 301.274 197.421 361.713 185.523 368.852 180.289 361.237 179.337 371.231 156.017 366.472 154.114 302.701 158.87 296.002 168.391 305.557" fill="#d0cde1"/><polygon points="161.728 373.135 158.873 296.039 152.686 300.798 141.264 308.412 148.879 335.539 151.258 364.093 161.728 373.135" fill="#2f2e41"/><polygon points="144.596 308.888 141.264 308.412 131.746 336.49 112.71 360.286 119.849 367.9 141.74 346.484 149.831 328.876 144.596 308.888" fill="#2f2e41"/><path d="M351.4174,565.59536l-.64933,3.12573s-2.97081,12.20793,1.33475,11.36336,5.4281-11.48008,5.4281-11.48008l-.68754-2.96869Z" transform="translate(-154.84913 -205.35011)" fill="#ffb8b8"/><polygon points="172.406 290.983 195.993 300.322 193.138 328.876 198.849 360.286 193.138 366.472 172.022 295.028 172.406 290.983" fill="#2f2e41"/><path d="M319.079,468.8806l3.35262-1.6763v1.6763l2.23507-1.11753v2.79384s8.38153,6.14645,6.70522,13.41044-1.67631,7.82276-1.67631,7.82276-2.11922-13.81412-10.50074-11.57905-9.05615,2.63876-11.29122,8.78521l-.60636,2.63647S297.84583,469.99814,319.079,468.8806Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><polygon points="192.662 300.322 196.469 300.322 202.656 333.635 202.656 362.665 195.042 361.237 188.855 317.454 192.662 300.322" fill="#2f2e41"/><rect x="3.53501" y="370.77159" width="140.32096" height="97.51118" class="psr_fill_400"/><path d="M228.54462,595.14827a29.729,29.729,0,1,0,29.729,29.729A29.81642,29.81642,0,0,0,228.54462,595.14827Zm0,8.9187a8.91871,8.91871,0,1,1-8.91871,8.91871,8.94863,8.94863,0,0,1,8.91871-8.91871Zm0,42.93556a21.65737,21.65737,0,0,1-17.83742-9.519c.14293-5.94581,11.89161-9.21886,17.83742-9.21886s17.69448,3.27305,17.8374,9.21886a21.69344,21.69344,0,0,1-17.83741,9.519Z" transform="translate(-154.84913 -205.35011)" fill="#fff"/><rect x="284.18701" y="90.90722" width="176" height="101" fill="#e6e6e6"/><path d="M963.0513,496.58366l.81548-5.25988s4.75311-10.80516.99606-11.38765-6.89084,9.70426-6.89084,9.70426l1.37467,10.98574Z" transform="translate(-154.84913 -205.35011)" fill="#ffb8b8"/><polygon points="846.67 321.051 813.089 314.306 809.187 289.847 799.302 289.084 799.785 320.707 828.962 336.004 846.67 321.051" fill="#575a89"/><polygon points="846.67 321.051 813.089 314.306 809.187 289.847 799.302 289.084 799.785 320.707 828.962 336.004 846.67 321.051" opacity="0.2"/><rect x="910.1623" y="482.06175" width="103.06376" height="8.05267" transform="translate(1768.53923 766.82607) rotate(-180)" class="psr_fill_400"/><path d="M956.49034,494.78044l.00669-5.32271s3.05587-11.402-.74606-11.40676-5.33608,10.63873-5.33608,10.63873l3.02818,10.64924Z" transform="translate(-154.84913 -205.35011)" fill="#ffb8b8"/><path d="M1000.2023,510.02489l4.60746-1.12311a11.86169,11.86169,0,0,0,11.64163-14.21088h0a15.50416,15.50416,0,0,0-15.48468-15.52363h0A15.50417,15.50417,0,0,0,985.443,494.65194v0A12.32065,12.32065,0,0,0,1000.2023,510.02489Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><polygon points="818.254 381.458 822.005 422.524 828.797 462.833 840.203 462.847 838.732 423.305 832.709 375.393 818.254 381.458" fill="#2f2e41"/><path d="M985.17015,665.90379l-7.6096,4.55277s-12.1681,1.50549-9.89171,5.31029,28.89279,1.55707,28.8947.03629-.748-9.886-2.26874-9.88789Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><path d="M1006.77139,583.2605s-.21394,5.87095-5.54811,14.98891l.72505,28.13527,27.33,35.01218-9.89553,8.35184-33.40927-38.06137-8.307-45.63372,10.65879-10.63205Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><path d="M1026.99716,661.394s9.12274,1.53224,7.59719,5.33226-5.34945,21.28415-15.23162,18.99057c0,0-4.56232-.00573-3.03773-3.04536a55.0044,55.0044,0,0,1,3.04824-5.31889l.01241-9.885Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><circle cx="840.41522" cy="294.04136" r="11.40581" fill="#ffb8b8"/><polygon points="845.728 301.652 845.712 314.578 833.546 314.563 835.083 301.639 845.728 301.652" fill="#ffb8b8"/><path d="M985.35926,515.34718l3.68652-.9056,11.52122.9247s6.07545,6.09074,5.31316,7.61055-4.611,38.774-4.611,38.774l6.81006,26.62213-24.33429,1.49021-12.16428-1.53605,2.34133-47.90151s-5.30647-12.93326,1.54178-16.7266A29.95429,29.95429,0,0,0,985.35926,515.34718Z" transform="translate(-154.84913 -205.35011)" fill="#575a89"/><polygon points="844.193 313.056 809.978 311.492 802.404 287.911 792.518 288.658 797.801 319.841 828.964 330.526 844.193 313.056" fill="#575a89"/><circle cx="862.43241" cy="278.27937" r="7.35883" fill="#2f2e41"/><path d="M1010.49168,479.67357a7.35536,7.35536,0,0,1,8.807-7.20494A7.3554,7.3554,0,1,0,1014.711,486.331,7.35277,7.35277,0,0,1,1010.49168,479.67357Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><path d="M1004.17862,483.847l-9.92079-1.82669-7.62952,4.78184a11.57336,11.57336,0,0,0-5.33128,11.29456l7.64125-1.93681,1.71106-4.29045,2.03787,3.34024,8.26714,14.45412,8.37-4.55181,5.33322-8.35757Z" transform="translate(-154.84913 -205.35011)" fill="#2f2e41"/><rect x="526.03635" y="245.29674" width="1.99958" height="202.92117" transform="translate(-190.8885 425.93087) rotate(-60.15005)" fill="#fff"/><rect x="425.57556" y="345.75754" width="202.92117" height="1.99958" transform="translate(-257.51689 102.92685) rotate(-29.84553)" fill="#fff"/><rect x="875.53625" y="332.45224" width="1.99979" height="80.61017" transform="translate(-161.69687 523.63263) rotate(-45)" fill="#fff"/><rect x="836.23106" y="371.75743" width="80.61017" height="1.99979" transform="translate(-161.69687 523.63263) rotate(-45)" fill="#fff"/></svg>
+         </div>
+     </div>
+     <div class="spacer_50"></div>
+ </div>
+ <!-- End Team work -->
+ 
+ <!-- FOOTER START -->
+ <footer class="psr_grey_bg_tr_900">
+    <div class="container">
+        <div class="row p-3">
+            <div class="d-flex justify-content-center psr_text_md">© Copyright 2020 - Made by <b class="psr_text_400">- Pankaj Singh Rana</b> </div>
+        </div>
+    </div>   
+  </footer>
+ <!-- FOOTER START END -->
+ 
+
+ <!-- Website Theme Setting Start-->
+ <div class="container-fluid" id="psr_website_theme">
+    <div class="row">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="psr_btn psr_btn_trans psr_btn_md psr_btn_rounded m-2 " onclick="defaultMode()">Chose Default</div>
+      </div>
+    </div>
+    <div class="row p-2">
+      <div class="d-flex justify-content-center">
+        increase or decrease font size
+      </div>
+      <div class="d-flex justify-content-center">
+        <!-- <div id="customRangeValue"></div> -->
+        <input type="range" class="form-range" min="0.5" max="2" step="0.1" id="customRange" onchange="changeFont(this.value)">  
+      </div>
+    </div>
+    <div class="row">
+      <div class="d-flex justify-content-center psr_theme_parent">
+        <div class="psr_theme_color" id="psr_theme_green" onclick="greenMode()"></div>
+        <div class="psr_theme_color" id="psr_theme_blue" onclick="blueMode()"></div>
+        <div class="psr_theme_color" id="psr_theme_red" onclick="redMode()"></div>
+        <div class="psr_theme_color" id="psr_theme_pink" onclick="pinkMode()"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="backdrop_theme" onclick="backDrop()"></div>
+  <div class="custom-control custom-switch" style="position: fixed;bottom:32px;right:16px; height:64px;width:64px" onclick="showTheme()">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi bi-brightness-high-fill" viewBox="0 0 16 16" style="position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);">
+            <path class="psr_fill_400" d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+          </svg>
+  </div>
+ <!-- Website Theme Setting End-->
+
+
+    <script src="js/main.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/color.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="js/form.js"></script>
+</body>
+</html>

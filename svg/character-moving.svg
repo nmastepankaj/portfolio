@@ -1,0 +1,139 @@
+ <svg height="9px" width="16px" class="psr_character_leg_animation leg-move" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2286 3195">
+ <defs>
+ <style>
+ .cls-1{fill:none;}.cls-2{fill:#2f2e40;}.cls-3{fill:#b7b7b7;}.cls-4{fill:#3f3d55;}.cls-5{fill:#7672f3;}.cls-6{fill:#ffd1ab;}.cls-7{fill:#dfa26f;}.cls-8{fill:#554126;}.cls-9{stroke:#000;stroke-miterlimit:10;}.cls-10{fill:#6863f2;}
+ .psr_character_leg_animation{
+        animation: moving-transform 25s ease-in-out infinite;
+        opacity: 0.2;
+    }
+   
+    .leg-move #right-bottom-leg-with-shoes{
+        transform: rotate(-10deg);
+    }
+    .leg-move #right-leg{
+        transform: rotate(-30deg);
+    }
+    #right-leg{
+        animation: rl 2s cubic-bezier(0.38, 0.04, 1, 1) infinite;
+        transform-origin: 50% 50%;
+    }
+    #right-bottom-leg-with-shoes{
+        animation: rbls 2s cubic-bezier(0.38, 0.04, 1, 1) infinite;
+        transform-origin: 30% 65%;
+    }
+    #left-leg{
+        animation: ll 2s cubic-bezier(0.38, 0.04, 1, 1) infinite;
+        transform-origin: 50% 50%;
+    }
+    #left-bottom-leg-with-shoes{
+        animation: lbls 2s cubic-bezier(0.38, 0.04, 1, 1) infinite;
+        transform-origin: 30% 65%;
+    }
+
+    @keyframes rbls{
+        0%{
+            transform: rotate(-10deg);
+        }
+        100%{
+            transform: rotate(10deg);
+        }
+    }
+
+    @keyframes rl {
+        0%{
+            transform: rotate(-30deg);
+        }
+        100%{
+            transform: rotate(30deg);
+        }
+    }
+
+    @keyframes lbls{
+        0%{
+            transform: rotate(10deg);
+        }
+        100%{
+            transform: rotate(-10deg);
+        }
+    }
+    @keyframes ll {
+        0%{
+            transform: rotate(30deg);
+        }
+        100%{
+            transform: rotate(-30deg);
+        }
+    }
+
+    @keyframes moving-transform{
+        0%{
+            transform: translateX(-700px);
+        }
+        100%{
+            transform: translateX(800px);
+        }
+    }
+ </style>
+ </defs>
+ <title>character-for-leg-2</title>
+        <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_7" data-name="Layer 7">
+                <rect class="cls-1" width="2286" height="3195"/>
+            </g>
+            <g id="Layer_9" data-name="Layer 9">
+                <g id="left-leg"><g id="left-upper-leg">
+                    <circle class="cls-2" cx="1007.14" cy="1618.26" r="124.26"/>
+                    <path class="cls-2" d="M1112.68,1744.41c7.88-55.18,21-123.49,21-123.49H884.09s21,291.64,21,388.86c0,19-.8,49.51-2.09,86.33l137.5,4.3c2.36-35.13,3.85-61.49,3.85-72.24C1044.37,1975.62,1104.8,1799.58,1112.68,1744.41Z"/>
+                    <circle class="cls-2" cx="972.88" cy="2075.51" r="72"/>
+                </g>
+                <g id="left-bottom-leg-with-shoes">
+                    <path class="cls-3" d="M873,2561.55v36.78s217.35,5.25,242.31,0,65-20.58,64.83-36.78-.92-24.32-.92-24.32-3.48,26-45.52,31.72S873,2561.55,873,2561.55Z"/>
+                    <path class="cls-4" d="M884.09,2506.37s-25,61.74,0,71.6,235,7.88,256.12,0,54.58-25.62,32.9-51.24-164.21-20.36-164.21-20.36Z"/>
+                    <circle class="cls-2" cx="972.88" cy="2102.51" r="72"/>
+                    <path class="cls-2" d="M882.88,2506.1l124.8.38s23.26-269.27,32.85-405.87L903,2095.9C897.27,2247.56,882.88,2506.1,882.88,2506.1Z"/>
+                </g>
+            </g>
+            <g id="left-hand">
+                <g id="upper-left-arm">
+                    <path class="cls-5" d="M1005.88,1284.36,969,944s-78.88-56.26-132.62-3.11-15.58,118.41-15.58,118.41,69.67,295,102.63,315.92c0,0-4.21-14.46.42-71.66S1005.88,1284.36,1005.88,1284.36Z"/>
+                    <circle class="cls-5" cx="964.57" cy="1327.4" r="64.43"/>
+                </g>
+                <g id="bottom-left-arm">
+                    <g id="bottom-left-hand">
+                        <polygon class="cls-5" points="902.3 1335.85 1026.06 1588.88 1098 1538.44 1015.04 1292.57 902.3 1335.85"/>
+                        <circle class="cls-5" cx="967.08" cy="1326.2" r="62.13"/>
+                    </g>
+                    <g id="left-hand-2" data-name="left-hand">
+                        <ellipse class="cls-6" cx="1083.88" cy="1593.8" rx="41.42" ry="62.13" transform="translate(-746.66 990.37) rotate(-37.54)"/>
+                        <ellipse class="cls-7" cx="1093.39" cy="1559.85" rx="17.41" ry="41.42" transform="translate(-804.17 1726.83) rotate(-60)"/>
+                    </g>
+                </g>
+            </g>
+            <rect class="cls-7" x="921.56" y="759.25" width="134" height="220.71" rx="29.12"/>
+            <path class="cls-6" d="M1066.52,532c61.43,33.43,49.43,76,56.63,94.68,4,20.05,17.89,37,18.35,57-.8,6.72-1.67,9.32-6.92,15.26-20.25,20-22.3,50-26.49,77,6.43,50.94,3.28,70.66-44.24,82.42-47.74,11.82-61.57,17.58-100,9.67C914.1,852.91,868.75,773,863.71,755c-27.66-113.83-19.14-219.26,34-211.53,13.08-.93,22.28,0,35.47,4.15C1039,580.13,997.54,513.72,1066.52,532Z"/>
+            <path class="cls-8" d="M893.57,626.54c-12.84,14.27-14.5,26.64-2.14,51.36,16.43,32.87-5.95,46.92-23.07,69.75s-13.55,42-13.55,42,3.74-40.61-18.67-84C799.8,635.21,786.33,553.78,870,504.31s184.29-25.94,214-115.08c3.8-11.41,56.11,54.21,63.72,75.14,0,0,1-35.19-31.38-57.07s58,14.26,59,78-1.91,31.39-1.91,31.39,12.37-3.8,9.52-31.39,27.58,37.1-5.71,72.29-59,41.85-67.53,39-25.68-61.83-68.49-48.51c0,0-12.36,15.22-6.66,40.9s-16.16,14.27-33.29,40.9S988,673.62,988,673.62l4.75,24.74S955.64,669.82,950.88,647,910.71,607.5,893.57,626.54Z"/>
+            <circle class="cls-9" cx="1072.09" cy="640.23" r="16.53"/><g id="right-leg"><g id="right-upper-leg">
+                <circle class="cls-2" cx="1006" cy="1618.59" r="124.26"/><path class="cls-2" d="M1111.54,1744.74c7.89-55.17,21-123.49,21-123.49H883s21,291.65,21,388.86c0,19-.81,49.52-2.1,86.34l137.51,4.29c2.36-35.13,3.84-61.49,3.84-72.23C1043.23,1976,1103.66,1799.92,1111.54,1744.74Z"/>
+                <circle class="cls-2" cx="971.74" cy="2075.85" r="72"/>
+            </g>
+            <g id="right-bottom-leg-with-shoes">
+                    <path class="cls-3" d="M871.86,2561.88v36.78s217.35,5.26,242.31,0,65-20.58,64.83-36.78-.91-24.31-.91-24.31-3.49,26-45.53,31.71S871.86,2561.88,871.86,2561.88Z"/>
+                    <path class="cls-4" d="M883,2506.7s-25,61.75,0,71.6,235,7.88,256.12,0,54.57-25.62,32.9-51.23-164.22-20.37-164.22-20.37Z"/>
+                    <circle class="cls-2" cx="971.74" cy="2102.85" r="72"/>
+                    <path class="cls-2" d="M881.74,2506.43l124.81.38s23.25-269.27,32.84-405.86l-137.49-4.71C896.13,2247.89,881.74,2506.43,881.74,2506.43Z"/>
+                </g>
+            </g>
+                    <path id="body" class="cls-10" d="M883.54,1639l249.28-5.56s6.58-202.07,15-325.8,69.21-230.7,29.36-299.91S975.82,896.54,894,917.51s-83.89,79.7-83.89,102.77,16.13,121,21,153.09c10.73,71.31,8.39,67.11,23.07,148.91S883.54,1639,883.54,1639Z"/>
+                    <g id="right-hand">
+                        <g id="upper-right-hand"><path class="cls-5" d="M1005.05,1295.7,968.13,955.29S889.25,899,835.51,952.17s-15.58,118.41-15.58,118.41,69.67,295,102.63,315.92c0,0-4.21-14.46.42-71.66S1005.05,1295.7,1005.05,1295.7Z"/>
+                            <circle class="cls-5" cx="963.73" cy="1338.73" r="64.43"/>
+                        </g>
+                        <g id="bottom-right-arm">
+                            <g id="bottom-right-hand">
+                                <polygon class="cls-5" points="901.47 1347.18 1025.22 1600.22 1097.16 1549.78 1014.2 1303.91 901.47 1347.18"/>
+                                <circle class="cls-5" cx="966.24" cy="1337.53" r="62.13"/>
+                            </g>
+                            <g id="right-hand-2" data-name="right-hand">
+                                <ellipse class="cls-6" cx="1074.7" cy="1595.82" rx="41.42" ry="62.13" transform="translate(-749.79 985.19) rotate(-37.54)"/>
+                                <ellipse class="cls-7" cx="1084.2" cy="1561.86" rx="17.41" ry="41.42" transform="translate(-810.51 1719.88) rotate(-60)"/>
+                            </g></g></g></g></g></svg>

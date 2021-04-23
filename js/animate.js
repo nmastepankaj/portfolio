@@ -46,10 +46,10 @@ document.addEventListener('scroll', function () {
     if(isInViewport(circleProgress7)){
         document.getElementsByClassName("psr_stroke_50")[6].classList.add("psr_s_10");
     }
-    if(isInViewport(shivPath)){
-        document.getElementsByClassName("shiv_svg_animation")[0].classList.add("shiv_svg_path");
-        document.getElementsByClassName("shiv_svg_animation")[1].classList.add("shiv_svg_path");
-    }
+    // if(isInViewport(shivPath)){
+    //     document.getElementsByClassName("shiv_svg_animation")[0].classList.add("shiv_svg_path");
+    //     document.getElementsByClassName("shiv_svg_animation")[1].classList.add("shiv_svg_path");
+    // }
 
 }, {
     passive: true

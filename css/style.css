@@ -141,10 +141,13 @@
     .psr_text_xxxl{
       font-size: var(--psr-text-xxxl) !important;
     }
-    .psr_bg_full{
-      height: 100vh;
-      width: 100vw;
-  }
+    @media ( min-width: 456px) {
+      .psr_bg_full{
+        height: 100vh;
+        width: 100vw;
+    }
+    }
+    
   .psr_fill_400{
     fill: var(--psr-main-400);
   }
